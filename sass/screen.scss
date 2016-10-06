@@ -10,6 +10,7 @@ $dGray : #bfbfbf;
 $lGray : #ebebeb;
 $headerFontFam : Goudy;
 $contentFontFam : calibri;
+$numberFontFam : Lucida Sans;
 $bRadiusSize : 5px;
 $bRadiusButtonSize : 5px;
 $h1FontSize : 65px;
@@ -26,12 +27,12 @@ header{
   color: #ffffff;
     div{
       float: left;
-      margin-top: 60px;
+      margin-top: 5%;
     }
 }
 
 .logo-div{
-  margin-left: 150px;
+  margin-left: 10%;
   width: 170px;
 }
 
@@ -42,8 +43,8 @@ img.logo{
 
 .menu-div{
   width: 40%;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 3%;
+  margin-right: 3%;
   padding-top: 20px;
   ul{
     list-style-type: none;
@@ -227,12 +228,12 @@ Form content
     div.round-div {
       z-index: 0;
       margin: 0 3% 0 4%;
-      font-family: $contentFontFam;
+      font-family: $numberFontFam;
       background: white;
-      font-size: 55px;
+      font-size: 50px;
       color: $mainColor;
       border: 13px solid $dGray;
-      padding: 10px 23px 10px 23px;
+      padding: 10px 21px 10px 21px;
       border-radius: 80px;
     }
 
@@ -246,7 +247,6 @@ Form content
   div#circle-center{
     margin: 0 25% 0 25%;
   }
-
 
   .form-first-page-div {
     clear: both;
@@ -285,8 +285,8 @@ Form content
               width: 30px;
               height: 30px;
               position: absolute;
-              z-index: -9999;
-
+              z-index: 1;
+              opacity: 0;
             }
             span {
               width: 30px;
@@ -304,7 +304,7 @@ Form content
               color : $mainColor;
               font-size: 25px;
               margin-top: 2%;
-              margin-left: 2%;
+              margin-left: 5%;
               width: 100%;
             }
 
