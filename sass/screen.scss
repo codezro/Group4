@@ -174,4 +174,186 @@ footer{
   }
 }
 
+/*
+Form content
+*/
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+.form-head-font{
+  padding: 0 0 0 2%;
+  font-family: $contentFontFam;
+  font-size: 28px;
+  color: $mainColor;
+}
+
+#right-form-head-font{
+  padding: 0 0 0 9%;
+  font-family: $contentFontFam;
+  font-size: 28px;
+  color: $mainColor;
+}
+
+.first-page-div {
+  margin: 0px 15% 0px 15%;
+  border: 2px solid $lGray;
+  align: center;
+
+  div {
+    @extend .float-left;
+  }
+
+  div.phase-div{
+    //border: 1px solid orangered;
+    margin: 5% 5% 5% 5%;
+    width: 90%;
+
+    div.dash-div {
+      position: absolute;
+      z-index: -1;
+      margin-left: 5%;
+      margin-top: 42px;
+      width: 50%;
+      //border: 8px solid $dGray;
+    }
+
+    div.round-div {
+      z-index: 0;
+      margin: 0 3% 0 4%;
+      font-family: $contentFontFam;
+      background: white;
+      font-size: 55px;
+      color: $mainColor;
+      border: 13px solid $dGray;
+      padding: 10px 23px 10px 23px;
+      border-radius: 80px;
+    }
+
+  }
+
+  div#circle-center{
+    margin: 0 25% 0 25%;
+  }
+
+  div#first-phase {
+    background: $mainColor;
+    color: white;
+  }
+
+  div#second-phase {
+    background: $mainColor;
+  }
+
+  div#second-phase {
+    background: $mainColor;
+  }
+
+
+
+
+  .form-first-page-div {
+    clear: both;
+    width: 90%;
+    margin: 0px 5% 0% 5%;
+    alignment: center;
+    background: $lGray;
+    border-radius: 10px;
+    padding-bottom: 2%;
+
+    h1 {
+      padding: 25px;
+      font-family: "Arial";
+      font-size: 40px;
+      color: $mainColor;
+    }
+
+    form {
+
+      div.center-div {
+        //border: 1px solid blue;
+        margin: 0% 7% 0% 7%;
+        div.row-div {
+
+          //border: 1px solid red;
+          width: 100%;
+          margin: 0% 0% 2% 0%;
+
+          div.fullWidth {
+
+            clear: both;
+            width: 100%;
+            input {
+              border: 1px solid white;
+              height: 50px;
+              width: 99%;
+              border-radius: 10px;
+              font-size: 30px;
+            }
+          }
+
+          div.halfWidth-div {
+            //border: 1px solid black;
+            display: inline-block;
+            width: 49%;
+
+            div.left {
+              input {
+                @extend .float-left;
+                border: 1px solid white;
+                height: 50px;
+                width: 93%;
+                border-radius: 10px;
+                font-size: 30px;
+              }
+            }
+
+            div.right {
+
+              input {
+                @extend .float-right;
+                border: 1px solid white;
+                height: 50px;
+                width: 93%;
+                border-radius: 10px;
+                font-size: 30px;
+              }
+            }
+
+          }
+
+        }
+
+      }
+    }
+
+  }
+
+  .button-div{
+    //border: 1px solid darkgreen;
+    margin: 3% 0 0 5%;
+    padding: 0px;
+    width: 90%;
+
+    div.button {
+
+      @extend .float-right;
+      padding: 15px;
+      background: $mainColor;
+      text-align: center;
+      width: 35%;
+      border-radius: 10px;
+      font-family: $contentFontFam;
+      font-size: 45px;
+      color: #ffffff;
+
+    }
+
+  }
+
+}
 
