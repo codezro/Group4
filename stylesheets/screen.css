@@ -1,0 +1,246 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 21, ../sass/screen.scss */
+header {
+  width: auto;
+  margin: 0;
+  background-color: #2da8c9;
+  height: 250px;
+  color: #ffffff;
+}
+/* line 27, ../sass/screen.scss */
+header div {
+  float: left;
+  margin-top: 60px;
+}
+
+/* line 33, ../sass/screen.scss */
+.logo-div {
+  margin-left: 150px;
+  width: 170px;
+}
+
+/* line 38, ../sass/screen.scss */
+img.logo {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 43, ../sass/screen.scss */
+.menu-div {
+  width: 40%;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 20px;
+}
+/* line 48, ../sass/screen.scss */
+.menu-div ul {
+  list-style-type: none;
+}
+/* line 50, ../sass/screen.scss */
+.menu-div ul li {
+  display: inline-block;
+  border-right: 2px solid #ffffff;
+}
+/* line 53, ../sass/screen.scss */
+.menu-div ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 60, ../sass/screen.scss */
+.menu-div ul li a:hover {
+  text-decoration: underline;
+}
+/* line 64, ../sass/screen.scss */
+.menu-div ul li:last-child {
+  border-right: none;
+}
+
+/* line 70, ../sass/screen.scss */
+.search-div {
+  border: 1px solid #ffffff;
+  margin-top: 70px;
+  width: 220px;
+  border-radius: 10px;
+  padding: 0%;
+}
+/* line 77, ../sass/screen.scss */
+.search-div input {
+  height: 35px;
+  width: 180px;
+  border-style: none;
+  background-color: transparent;
+  font-size: 15pt;
+  margin-left: 7px;
+}
+/* line 85, ../sass/screen.scss */
+.search-div input:focus {
+  outline-color: transparent;
+  outline-style: none;
+  color: #ffffff;
+}
+/* line 90, ../sass/screen.scss */
+.search-div img {
+  float: right;
+  width: 25px;
+  height: 25px;
+  padding: 7px 7px 7px 0px;
+}
+
+/* line 99, ../sass/screen.scss */
+section {
+  text-align: center;
+  font-family: calibri;
+}
+/* line 103, ../sass/screen.scss */
+section div {
+  margin-top: 35px;
+}
+/* line 106, ../sass/screen.scss */
+section div h1 {
+  color: #2da8c9;
+  font-size: 65px;
+  font-weight: bold;
+}
+/* line 111, ../sass/screen.scss */
+section div h2 {
+  color: #2da8c9;
+  font-size: 42px;
+}
+/* line 116, ../sass/screen.scss */
+section div:last-child {
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+/* line 122, ../sass/screen.scss */
+footer {
+  background-color: #bfbfbf;
+  height: 200px;
+  font-family: calibri;
+  text-align: center;
+}
+/* line 128, ../sass/screen.scss */
+footer div.circles {
+  width: 35%;
+  margin: 0 auto;
+}
+/* line 131, ../sass/screen.scss */
+footer div.circles div {
+  float: left;
+  padding: 30px;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+/* line 142, ../sass/screen.scss */
+footer div.links {
+  width: 70%;
+  margin: 0 auto;
+  clear: both;
+  margin-bottom: 20px;
+}
+/* line 147, ../sass/screen.scss */
+footer div.links ul {
+  list-style: none;
+}
+/* line 149, ../sass/screen.scss */
+footer div.links ul li {
+  display: inline-block;
+  border-right: 2px solid #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 154, ../sass/screen.scss */
+footer div.links ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+/* line 159, ../sass/screen.scss */
+footer div.links ul li a:hover {
+  text-decoration: underline;
+}
+/* line 163, ../sass/screen.scss */
+footer div.links ul li:last-child {
+  border-right: 0;
+}
+/* line 169, ../sass/screen.scss */
+footer div.copy-right {
+  width: 50%;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 20px;
+}

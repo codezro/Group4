@@ -1,0 +1,177 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$mainColor : #2da8c9;
+$dGray : #bfbfbf;
+$lGray : #ebebeb;
+$headerFontFam : Goudy;
+$contentFontFam : calibri;
+$bRadiusSize : 5px;
+$bRadiusButtonSize : 5px;
+$h1FontSize : 65px;
+$h2FontSize : 42px;
+
+body{
+}
+
+header{
+  width: auto;
+  margin: 0;
+  background-color: $mainColor;
+  height: 250px;
+  color: #ffffff;
+    div{
+      float: left;
+      margin-top: 60px;
+    }
+}
+
+.logo-div{
+  margin-left: 150px;
+  width: 170px;
+}
+
+img.logo{
+  width: 100%;
+  height: 100%;
+}
+
+.menu-div{
+  width: 40%;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 20px;
+  ul{
+    list-style-type: none;
+    li{
+      display: inline-block;
+      border-right: 2px solid #ffffff;
+      a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    li:last-child{
+      border-right: none;
+    }
+  }
+}
+
+.search-div{
+  border: 1px solid #ffffff;
+  margin-top: 70px;
+  width: 220px;
+  border-radius: 10px;
+  padding: 0%;
+
+  input{
+    height: 35px;
+    width: 180px;
+    border-style: none;
+    background-color: transparent;
+    font-size: 15pt;
+    margin-left: 7px;
+  }
+  input:focus {
+    outline-color: transparent;
+    outline-style: none;
+    color: #ffffff;
+  }
+  img{
+    float: right;
+    width: 25px;
+    height: 25px;
+    padding: 7px 7px 7px 0px;
+  }
+
+}
+
+section{
+  text-align: center;
+  font-family: $contentFontFam;
+
+  div{
+    margin-top: 35px;
+
+    h1{
+      color: $mainColor;
+      font-size: $h1FontSize;
+      font-weight: bold;
+    }
+    h2{
+      color: $mainColor;
+      font-size: $h2FontSize;
+    }
+  }
+  div:last-child{
+    margin-top: 10px;
+    margin-bottom: 35px;
+  }
+}
+
+footer{
+  background-color: $dGray;
+  height: 200px;
+  font-family: $contentFontFam;
+  text-align: center;
+
+  div.circles{
+    width: 35%;
+    margin: 0 auto;
+    div{
+      float: left;
+      padding: 30px;
+      border-radius: 30px;
+      margin-left: 30px;
+      margin-top:20px;
+      margin-bottom: 20px;
+      background-color: #ffffff;
+    }
+  }
+
+  div.links{
+    width: 70%;
+    margin: 0 auto;
+    clear: both;
+    margin-bottom: 20px;
+    ul{
+      list-style: none;
+      li{
+        display: inline-block;
+        border-right: 2px solid #ffffff;
+        padding-left: 20px;
+        padding-right: 20px;
+        a{
+          text-decoration: none;
+          color: #ffffff;
+          font-size: 25px;
+        }
+        a:hover{
+          text-decoration: underline;
+        }
+      }
+      li:last-child{
+        border-right: 0;
+      }
+    }
+  }
+
+  div.copy-right{
+    width: 50%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 20px;
+  }
+}
+
+
