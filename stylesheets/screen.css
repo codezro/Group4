@@ -255,7 +255,7 @@ Form content
 }
 
 /* line 186, ../sass/screen.scss */
-.float-right, .first-page-div .form-first-page-div form div.center-div div.row-div div.halfWidth-div div.right input, .first-page-div .button-div div.button {
+.float-right, .first-page-div .form-first-page-div form div.center-div div.row-div div.halfWidth-div div.right input, .first-page-div .button-div a div.button {
   float: right;
 }
 
@@ -307,68 +307,81 @@ Form content
   padding: 10px 23px 10px 23px;
   border-radius: 80px;
 }
-/* line 240, ../sass/screen.scss */
-.first-page-div div#circle-center {
-  margin: 0 25% 0 25%;
-}
-/* line 244, ../sass/screen.scss */
-.first-page-div div#first-phase {
+/* line 238, ../sass/screen.scss */
+.first-page-div div.phase-div div.round-color {
   background: #2da8c9;
   color: white;
 }
-/* line 249, ../sass/screen.scss */
-.first-page-div div#second-phase {
-  background: #2da8c9;
+/* line 245, ../sass/screen.scss */
+.first-page-div div#circle-center {
+  margin: 0 25% 0 25%;
 }
-/* line 253, ../sass/screen.scss */
-.first-page-div div#second-phase {
-  background: #2da8c9;
-}
-/* line 260, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .first-page-div .form-first-page-div {
   clear: both;
   width: 90%;
   margin: 0px 5% 0% 5%;
-  alignment: center;
   background: #ebebeb;
   border-radius: 10px;
   padding-bottom: 2%;
 }
-/* line 269, ../sass/screen.scss */
-.first-page-div .form-first-page-div h1 {
+/* line 258, ../sass/screen.scss */
+.first-page-div .form-first-page-div div.header-text {
   padding: 25px;
   font-family: "Arial";
   font-size: 40px;
   color: #2da8c9;
 }
-/* line 278, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div {
   margin: 0% 7% 0% 7%;
+  width: 90%;
 }
-/* line 281, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div {
   width: 100%;
   margin: 0% 0% 2% 0%;
 }
-/* line 287, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
+.first-page-div .form-first-page-div form div.center-div div.row-div div.checkbox {
+  margin-top: 3%;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+/* line 284, ../sass/screen.scss */
+.first-page-div .form-first-page-div form div.center-div div.row-div div.checkbox input[type=checkbox] {
+  width: 30px;
+  height: 30px;
+}
+/* line 292, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.fullWidth {
   clear: both;
   width: 100%;
 }
-/* line 291, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.fullWidth input {
   border: 1px solid white;
   height: 50px;
-  width: 98%;
+  width: 97%;
   border-radius: 10px;
   font-size: 30px;
 }
-/* line 300, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
+.first-page-div .form-first-page-div form div.center-div div.row-div div.fullWidth textarea {
+  width: 97%;
+  height: 160px;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 1%;
+}
+/* line 314, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.halfWidth-div {
   display: inline-block;
   width: 49%;
 }
-/* line 306, ../sass/screen.scss */
+/* line 320, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.halfWidth-div div.left input {
   border: 1px solid white;
   height: 50px;
@@ -376,7 +389,7 @@ Form content
   border-radius: 10px;
   font-size: 30px;
 }
-/* line 318, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.halfWidth-div div.right input {
   border: 1px solid white;
   height: 50px;
@@ -384,14 +397,14 @@ Form content
   border-radius: 10px;
   font-size: 30px;
 }
-/* line 337, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 .first-page-div .button-div {
   margin: 3% 0 12% 5%;
   padding: 0px;
   width: 90%;
 }
-/* line 343, ../sass/screen.scss */
-.first-page-div .button-div div.button {
+/* line 358, ../sass/screen.scss */
+.first-page-div .button-div a div.button {
   padding: 15px;
   background: #2da8c9;
   text-align: center;

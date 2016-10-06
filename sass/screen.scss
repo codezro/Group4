@@ -235,38 +235,27 @@ Form content
       border-radius: 80px;
     }
 
+    div.round-color{
+      background: $mainColor;
+      color: white;
+    }
+
   }
 
   div#circle-center{
     margin: 0 25% 0 25%;
   }
 
-  div#first-phase {
-    background: $mainColor;
-    color: white;
-  }
-
-  div#second-phase {
-    background: $mainColor;
-  }
-
-  div#second-phase {
-    background: $mainColor;
-  }
-
-
-
 
   .form-first-page-div {
     clear: both;
     width: 90%;
     margin: 0px 5% 0% 5%;
-    alignment: center;
     background: $lGray;
     border-radius: 10px;
     padding-bottom: 2%;
 
-    h1 {
+    div.header-text {
       padding: 25px;
       font-family: "Arial";
       font-size: 40px;
@@ -278,23 +267,48 @@ Form content
       div.center-div {
         //border: 1px solid blue;
         margin: 0% 7% 0% 7%;
+        width: 90%;
         div.row-div {
 
           //border: 1px solid red;
           width: 100%;
           margin: 0% 0% 2% 0%;
 
-          div.fullWidth {
+          div.checkbox{
+            margin-top: 3%;
+            width: 30px;
+            height: 30px;
+            background-color: #ffffff;
+            border-radius: 5px;
 
+            input[type=checkbox]{
+              width: 30px;
+              height: 30px;
+            }
+
+          }
+
+
+          div.fullWidth {
+            //border: 1px solid red;
             clear: both;
             width: 100%;
             input {
               border: 1px solid white;
               height: 50px;
-              width: 98%;
+              width: 97%;
               border-radius: 10px;
               font-size: 30px;
             }
+
+            textarea{
+              width: 97%;
+              height: 160px;
+              border-radius: 10px;
+              border-style: none;
+              margin-top: 1%;
+            }
+
           }
 
           div.halfWidth-div {
@@ -327,8 +341,9 @@ Form content
 
           }
 
-        }
 
+
+        }
       }
     }
 
@@ -339,21 +354,21 @@ Form content
     margin: 3% 0 12% 5%;
     padding: 0px;
     width: 90%;
+      a{
+        div.button {
 
-    div.button {
+          @extend .float-right;
+          padding: 15px;
+          background: $mainColor;
+          text-align: center;
+          width: 35%;
+          border-radius: 10px;
+          font-family: $contentFontFam;
+          font-size: 45px;
+          color: #ffffff;
 
-      @extend .float-right;
-      padding: 15px;
-      background: $mainColor;
-      text-align: center;
-      width: 35%;
-      border-radius: 10px;
-      font-family: $contentFontFam;
-      font-size: 45px;
-      color: #ffffff;
-
-    }
-
+        }
+      }
   }
 
 }
