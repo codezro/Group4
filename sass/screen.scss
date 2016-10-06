@@ -120,6 +120,7 @@ section{
 }
 
 footer{
+  clear: both;
   background-color: $dGray;
   height: 200px;
   font-family: $contentFontFam;
@@ -200,7 +201,7 @@ Form content
 }
 
 .first-page-div {
-  margin: 0px 15% 0px 15%;
+  margin: 0% 15% 0% 15%;
   border: 2px solid $lGray;
   align: center;
 
@@ -219,7 +220,7 @@ Form content
       margin-left: 5%;
       margin-top: 42px;
       width: 50%;
-      //border: 8px solid $dGray;
+      border: 8px solid $dGray;
     }
 
     div.round-div {
@@ -290,7 +291,7 @@ Form content
             input {
               border: 1px solid white;
               height: 50px;
-              width: 99%;
+              width: 98%;
               border-radius: 10px;
               font-size: 30px;
             }
@@ -306,7 +307,7 @@ Form content
                 @extend .float-left;
                 border: 1px solid white;
                 height: 50px;
-                width: 93%;
+                width: 95%;
                 border-radius: 10px;
                 font-size: 30px;
               }
@@ -318,7 +319,7 @@ Form content
                 @extend .float-right;
                 border: 1px solid white;
                 height: 50px;
-                width: 93%;
+                width: 95%;
                 border-radius: 10px;
                 font-size: 30px;
               }
@@ -335,7 +336,7 @@ Form content
 
   .button-div{
     //border: 1px solid darkgreen;
-    margin: 3% 0 0 5%;
+    margin: 3% 0 12% 5%;
     padding: 0px;
     width: 90%;
 
