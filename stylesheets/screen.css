@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 22, ../sass/screen.scss */
 header {
-  width: auto;
+  width: 100%;
   margin: 0;
   background-color: #2da8c9;
   height: 250px;
