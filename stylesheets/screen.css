@@ -383,13 +383,13 @@ Form content
 .first-page-div .form-first-page-div form div.center-div div.row-div div.fullWidth input {
   border: 1px solid white;
   height: 50px;
-  width: 97%;
+  width: 96%;
   border-radius: 10px;
   font-size: 30px;
 }
 /* line 328, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.fullWidth textarea {
-  width: 97%;
+  width: 96%;
   height: 160px;
   border-radius: 10px;
   border-style: none;
