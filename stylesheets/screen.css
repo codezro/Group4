@@ -348,7 +348,7 @@ Form content
 }
 /* line 287, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.checkbox input {
-  width: 30px;
+  width: 50%;
   height: 30px;
   position: absolute;
   z-index: 1;
