@@ -28,71 +28,73 @@ header{
     div{
       float: left;
       margin-top: 5%;
-    }
-}
-
-.logo-div{
-  margin-left: 10%;
-  width: 170px;
-}
-
-img.logo{
-  width: 100%;
-  height: 100%;
-}
-
-.menu-div{
-  width: 40%;
-  margin-left: 3%;
-  margin-right: 3%;
-  padding-top: 20px;
-  ul{
-    list-style-type: none;
-    li{
-      display: inline-block;
-      border-right: 2px solid #ffffff;
-      a{
-        text-decoration: none;
-        color: #ffffff;
-        font-size: 25px;
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-      a:hover{
-        text-decoration: underline;
+      img.logo{
+        width: 100%;
+        height: 100%;
       }
     }
-    li:last-child{
-      border-right: none;
+
+  div.logo-div{
+    margin-left: 10%;
+    width: 170px;
+  }
+
+  div.menu-div{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 20px;
+    nav {
+      ul {
+        list-style-type: none;
+        li {
+          display: inline-block;
+          border-right: 2px solid #ffffff;
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 25px;
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+        li:last-child {
+          border-right: none;
+        }
+      }
     }
   }
-}
 
-.search-div{
-  border: 1px solid #ffffff;
-  margin-top: 70px;
-  width: 220px;
-  border-radius: 10px;
-  padding: 0%;
+  div.search-div{
+    border: 1px solid #ffffff;
+    margin-top: 70px;
+    width: 220px;
+    border-radius: 10px;
+    padding: 0%;
 
-  input{
-    height: 35px;
-    width: 180px;
-    border-style: none;
-    background-color: transparent;
-    font-size: 15pt;
-    margin-left: 7px;
-  }
-  input:focus {
-    outline-color: transparent;
-    outline-style: none;
-    color: #ffffff;
-  }
-  img{
-    float: right;
-    width: 25px;
-    height: 25px;
-    padding: 7px 7px 7px 0px;
+    input{
+      height: 35px;
+      width: 180px;
+      border-style: none;
+      background-color: transparent;
+      font-size: 15pt;
+      margin-left: 7px;
+    }
+    input:focus {
+      outline-color: transparent;
+      outline-style: none;
+      color: #ffffff;
+    }
+    img{
+      float: right;
+      width: 25px;
+      height: 25px;
+      padding: 7px 7px 7px 0px;
+    }
+
   }
 
 }
@@ -336,7 +338,7 @@ Form content
           div.halfWidth-div {
             //border: 1px solid black;
             display: inline-block;
-            width: 49%;
+            width: 48%;
 
             div.left {
               input {

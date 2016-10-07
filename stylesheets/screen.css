@@ -80,54 +80,50 @@ header div {
   float: left;
   margin-top: 5%;
 }
-
-/* line 34, ../sass/screen.scss */
-.logo-div {
-  margin-left: 10%;
-  width: 170px;
-}
-
-/* line 39, ../sass/screen.scss */
-img.logo {
+/* line 31, ../sass/screen.scss */
+header div img.logo {
   width: 100%;
   height: 100%;
 }
-
-/* line 44, ../sass/screen.scss */
-.menu-div {
+/* line 37, ../sass/screen.scss */
+header div.logo-div {
+  margin-left: 10%;
+  width: 170px;
+}
+/* line 42, ../sass/screen.scss */
+header div.menu-div {
   width: 40%;
   margin-left: 3%;
   margin-right: 3%;
   padding-top: 20px;
 }
-/* line 49, ../sass/screen.scss */
-.menu-div ul {
+/* line 48, ../sass/screen.scss */
+header div.menu-div nav ul {
   list-style-type: none;
 }
-/* line 51, ../sass/screen.scss */
-.menu-div ul li {
+/* line 50, ../sass/screen.scss */
+header div.menu-div nav ul li {
   display: inline-block;
   border-right: 2px solid #ffffff;
 }
-/* line 54, ../sass/screen.scss */
-.menu-div ul li a {
+/* line 53, ../sass/screen.scss */
+header div.menu-div nav ul li a {
   text-decoration: none;
   color: #ffffff;
   font-size: 25px;
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 61, ../sass/screen.scss */
-.menu-div ul li a:hover {
+/* line 60, ../sass/screen.scss */
+header div.menu-div nav ul li a:hover {
   text-decoration: underline;
 }
-/* line 65, ../sass/screen.scss */
-.menu-div ul li:last-child {
+/* line 64, ../sass/screen.scss */
+header div.menu-div nav ul li:last-child {
   border-right: none;
 }
-
 /* line 71, ../sass/screen.scss */
-.search-div {
+header div.search-div {
   border: 1px solid #ffffff;
   margin-top: 70px;
   width: 220px;
@@ -135,7 +131,7 @@ img.logo {
   padding: 0%;
 }
 /* line 78, ../sass/screen.scss */
-.search-div input {
+header div.search-div input {
   height: 35px;
   width: 180px;
   border-style: none;
@@ -144,58 +140,58 @@ img.logo {
   margin-left: 7px;
 }
 /* line 86, ../sass/screen.scss */
-.search-div input:focus {
+header div.search-div input:focus {
   outline-color: transparent;
   outline-style: none;
   color: #ffffff;
 }
 /* line 91, ../sass/screen.scss */
-.search-div img {
+header div.search-div img {
   float: right;
   width: 25px;
   height: 25px;
   padding: 7px 7px 7px 0px;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 section {
   text-align: center;
   font-family: calibri;
 }
-/* line 104, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 section div {
   margin-top: 35px;
 }
-/* line 107, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 section div h1 {
   color: #2da8c9;
   font-size: 65px;
   font-weight: bold;
 }
-/* line 112, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 section div h2 {
   color: #2da8c9;
   font-size: 42px;
 }
-/* line 117, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 section div:last-child {
   margin-top: 10px;
   margin-bottom: 35px;
 }
 
-/* line 124, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 footer div {
   clear: both;
   background-color: #bfbfbf;
   font-family: calibri;
   text-align: center;
 }
-/* line 130, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 footer div div.circles {
   width: 35%;
   margin: 0 auto;
 }
-/* line 133, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 footer div div.circles div {
   display: inline-block;
   padding: 30px;
@@ -205,39 +201,39 @@ footer div div.circles div {
   margin-bottom: 20px;
   background-color: #ffffff;
 }
-/* line 144, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 footer div div.links {
   width: 70%;
   margin: 0 auto;
   clear: both;
   margin-bottom: 20px;
 }
-/* line 149, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 footer div div.links ul {
   list-style: none;
 }
-/* line 151, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 footer div div.links ul li {
   display: inline-block;
   border-right: 2px solid #ffffff;
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 156, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 footer div div.links ul li a {
   text-decoration: none;
   color: #ffffff;
   font-size: 25px;
 }
-/* line 161, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 footer div div.links ul li a:hover {
   text-decoration: underline;
 }
-/* line 165, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 footer div div.links ul li:last-child {
   border-right: 0;
 }
-/* line 171, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 footer div div.copy-right {
   width: 50%;
   margin: 0 auto;
@@ -248,17 +244,17 @@ footer div div.copy-right {
 /*
 Form content
 */
-/* line 184, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .float-left, .first-page-div div, .first-page-div .form-first-page-div form div.center-div div.row-div div.halfWidth-div div.left input, .first-page-div .button-div a div.button-back {
   float: left;
 }
 
-/* line 188, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .float-right, .first-page-div .form-first-page-div form div.center-div div.row-div div.halfWidth-div div.right input, .first-page-div .button-div a div.button-next {
   float: right;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .form-head-font {
   padding: 0 0 0 2%;
   font-family: calibri;
@@ -266,7 +262,7 @@ Form content
   color: #2da8c9;
 }
 
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 #right-form-head-font {
   padding: 0 0 0 9%;
   font-family: calibri;
@@ -274,18 +270,18 @@ Form content
   color: #2da8c9;
 }
 
-/* line 205, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .first-page-div {
   margin: 0% 15% 0% 15%;
   border: 2px solid #ebebeb;
   align: center;
 }
-/* line 214, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .first-page-div div.phase-div {
   margin: 5% 5% 5% 5%;
   width: 90%;
 }
-/* line 219, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .first-page-div div.phase-div div.dash-div {
   position: absolute;
   z-index: -1;
@@ -294,7 +290,7 @@ Form content
   width: 50%;
   border: 8px solid #bfbfbf;
 }
-/* line 228, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .first-page-div div.phase-div div.round-div {
   z-index: 0;
   margin: 0 3% 0 4%;
@@ -306,16 +302,16 @@ Form content
   padding: 10px 21px 10px 21px;
   border-radius: 80px;
 }
-/* line 240, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 .first-page-div div.phase-div div.round-color {
   background: #2da8c9;
   color: white;
 }
-/* line 247, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .first-page-div div#circle-center {
   margin: 0 25% 0 25%;
 }
-/* line 251, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 .first-page-div .form-first-page-div {
   clear: both;
   width: 90%;
@@ -324,33 +320,33 @@ Form content
   border-radius: 10px;
   padding-bottom: 2%;
 }
-/* line 259, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 .first-page-div .form-first-page-div div.header-text {
   padding: 25px;
   font-family: "Arial";
   font-size: 40px;
   color: #2da8c9;
 }
-/* line 266, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 .first-page-div .form-first-page-div form {
   font-family: calibri;
 }
-/* line 270, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div {
   margin: 0% 7% 0% 7%;
   width: 90%;
 }
-/* line 274, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div {
   width: 100%;
   margin: 0% 0% 2% 0%;
 }
-/* line 280, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.checkbox {
   margin-top: 3%;
   display: inline-block;
 }
-/* line 284, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.checkbox input {
   width: 30px;
   height: 30px;
@@ -358,7 +354,7 @@ Form content
   z-index: 1;
   opacity: 0;
 }
-/* line 291, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.checkbox span {
   width: 30px;
   height: 30px;
@@ -366,11 +362,11 @@ Form content
   background: #ffffff;
   border-radius: 10px;
 }
-/* line 299, ../sass/screen.scss */
+/* line 301, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.checkbox input:checked + span {
   background: url("../images/checkIcon.png");
 }
-/* line 303, ../sass/screen.scss */
+/* line 305, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.checkbox div {
   color: #2da8c9;
   font-size: 25px;
@@ -378,12 +374,12 @@ Form content
   margin-left: 5%;
   width: 100%;
 }
-/* line 314, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.fullWidth {
   clear: both;
   width: 100%;
 }
-/* line 318, ../sass/screen.scss */
+/* line 320, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.fullWidth input {
   border: 1px solid white;
   height: 50px;
@@ -391,7 +387,7 @@ Form content
   border-radius: 10px;
   font-size: 30px;
 }
-/* line 326, ../sass/screen.scss */
+/* line 328, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.fullWidth textarea {
   width: 97%;
   height: 160px;
@@ -399,12 +395,12 @@ Form content
   border-style: none;
   margin-top: 1%;
 }
-/* line 336, ../sass/screen.scss */
+/* line 338, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.halfWidth-div {
   display: inline-block;
-  width: 49%;
+  width: 48%;
 }
-/* line 342, ../sass/screen.scss */
+/* line 344, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.halfWidth-div div.left input {
   border: 1px solid white;
   height: 50px;
@@ -412,7 +408,7 @@ Form content
   border-radius: 10px;
   font-size: 30px;
 }
-/* line 354, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
 .first-page-div .form-first-page-div form div.center-div div.row-div div.halfWidth-div div.right input {
   border: 1px solid white;
   height: 50px;
@@ -420,13 +416,13 @@ Form content
   border-radius: 10px;
   font-size: 30px;
 }
-/* line 374, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .first-page-div .button-div {
   margin: 3% 0 12% 5%;
   padding: 0px;
   width: 90%;
 }
-/* line 380, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 .first-page-div .button-div a div.button-back {
   display: inline-block;
   padding: 15px;
@@ -438,7 +434,7 @@ Form content
   font-size: 45px;
   color: #ffffff;
 }
-/* line 397, ../sass/screen.scss */
+/* line 399, ../sass/screen.scss */
 .first-page-div .button-div a div.button-next {
   display: inline-block;
   padding: 15px;
